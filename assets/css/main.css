@@ -1,0 +1,118 @@
+a{
+    color: black;
+}
+
+
+/*side nav*/
+.sidenav {
+  height: 100%;
+  width: 14%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  padding-left: 2%;
+  background-color: transparent;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav h2:hover {
+    color: blue;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+  
+
+.main{
+    width: 86%;
+    margin-left: 15%;
+}  
+
+/*about*/
+#about img{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px;
+   border-radius: 50%;
+   height: 200px;
+   width: 200px;
+ }
+
+ 
+
+.about-me .about-left{
+    float:left; 
+    background-color:#DEF4C6; 
+    margin-left: 5%; 
+    width: 40% ;
+    height: 600px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.about-me .about-right{
+    float:left; 
+    background-color:#fffff8;  
+    width: 45% ;
+    height: 600px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.about-page .about-left{
+    float:left; 
+    background-color:#f7f7f2; 
+    margin-left: 5%; 
+    width: 40% ;
+    height: 600px;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.about-page .about-right{
+    float:left; 
+    background-color:#e4e6c3;  
+    width: 45% ;
+    height: 600px;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+
+/*skills*/
+
+
+#skills .skills-left{
+    float:left; 
+    background-color:#f7f7f2; 
+    margin-left: 5%; 
+    width: 28.4% ;
+    height: 700px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+#skills .skills-center{
+    float:left; 
+    background-color:#f7f7f2;  
+    width: 28.3% ;
+    height: 700px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+#skills .skills-right{
+    float:left; 
+    background-color:#f7f7f2;  
+    width: 28.3% ;
+    height: 700px;
+    padding: 10px;
+    font-size: 24px;
+}
+
