@@ -2,6 +2,25 @@ a{
     color: black;
 }
 
+p, ul, li{
+    font-size: 24pt;
+}
+
+h1{
+    font-size: 48pt;
+}
+
+img{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px;
+   border-radius: 50%;
+   height: 200px;
+   width: 200px;
+}
+
+
 
 /*side nav*/
 .sidenav {
@@ -24,52 +43,54 @@ a{
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+.social-icons{
+    font-size: 60px;
+    padding: 10px;
+  }
+  
+  /*for a tag inside social icons class*/
+.social-icons a{
+    color: white;
+}
   
 
+/*main container*/
 .main{
     width: 86%;
     margin-left: 15%;
 }  
 
 /*about*/
-#about img{
-    display: block;
-   margin-left: auto;
-   margin-right: auto;
-   padding: 10px;
-   border-radius: 50%;
-   height: 200px;
-   width: 200px;
- }
-
- 
 
 .about-me .about-left{
     float:left; 
     background-color:#DEF4C6; 
     margin-left: 5%; 
-    width: 40% ;
-    height: 600px;
+    width: 20% ;
+    height: 800px;
     padding: 10px;
     font-size: 24px;
+    margin-bottom: 50px;
 }
 
 .about-me .about-right{
     float:left; 
     background-color:#fffff8;  
-    width: 45% ;
-    height: 600px;
-    padding: 10px;
+    width: 65% ;
+    height: 800px;
+    padding: 30px;
     font-size: 24px;
+    margin-bottom: 50px;
 }
 
 .about-page .about-left{
     float:left; 
     background-color:#f7f7f2; 
     margin-left: 5%; 
-    width: 40% ;
-    height: 600px;
-    padding: 10px;
+    width: 65% ;
+    height: 800px;
+    padding: 30px;
     font-size: 24px;
     margin-bottom: 50px;
 }
@@ -77,42 +98,155 @@ a{
 .about-page .about-right{
     float:left; 
     background-color:#e4e6c3;  
-    width: 45% ;
-    height: 600px;
+    width: 20% ;
+    height: 800px;
     padding: 10px;
     font-size: 24px;
     margin-bottom: 50px;
 }
 
 
-/*skills*/
-
-
-#skills .skills-left{
+/*qualifications*/
+.qualifications-left{
     float:left; 
     background-color:#f7f7f2; 
     margin-left: 5%; 
-    width: 28.4% ;
-    height: 700px;
-    padding: 10px;
+    width: 36% ;
+    height: 1300px;
+    padding: 25px;
     font-size: 24px;
+    margin-bottom: 50px;
 }
 
-#skills .skills-center{
+.qualifications-center{
     float:left; 
     background-color:#f7f7f2;  
-    width: 28.3% ;
-    height: 700px;
-    padding: 10px;
+    width: 24% ;
+    height: 1300px;
+    padding: 25px;
     font-size: 24px;
+    margin-bottom: 50px;
 }
 
-#skills .skills-right{
+.qualifications-right{
     float:left; 
     background-color:#f7f7f2;  
-    width: 28.3% ;
-    height: 700px;
-    padding: 10px;
+    width: 25% ;
+    height: 1300px;
+    padding: 25px;
     font-size: 24px;
+    margin-bottom: 50px;
 }
 
+
+/*projects*/
+.internships{
+    float:left; 
+    background-color:#f7f7f2; 
+    margin-left: 5%; 
+    width: 28.3% ;
+    height: 800px;
+    padding: 30px;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.personal-projects{
+    float:left; 
+    background-color:#e4e6c3;  
+    width: 28.3% ;
+    height: 800px;
+    padding: 30px;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.publications{
+    float:left; 
+    background-color:#DEF4C6;  
+    width: 28.3% ;
+    height: 800px;
+    padding: 30px;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+#header, #footer{
+    float:left; 
+    background-color:#e4e6c3; 
+    margin-left: 5%; 
+    width: 85% ;
+    height: 100px;
+    padding: 10px;
+    font-size: 24px;
+    
+}
+
+/*site-map*/
+.site-map-left{
+    float:left; 
+    background-color:#f7f7f2; 
+    margin-left: 5%; 
+    width: 23%;
+    height: 1000px;
+    padding: 10px;
+    font-size: 24px;
+    
+}
+
+.site-map-center{
+    float:left; 
+    background-color:#f7f7f2;  
+    width: 23% ;
+    height: 1000px;
+    padding: 10px;
+    font-size: 24px;
+    
+}
+
+.site-map-right{
+    float:left; 
+    background-color:#f7f7f2;  
+    width: 39% ;
+    height: 1000px;
+    padding: 10px;
+    font-size: 24px;
+
+}
+
+.site-map-left p,.site-map-center p{
+    text-indent: 70px;
+}    
+
+/*feedback form*/
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
