@@ -384,7 +384,7 @@ input, select, textarea {
 		#main:before {
 			content: '';
 			display: inline-block;
-			height: 80%; /*to adjust the prof-box*/
+			height: 70%; /*to adjust the prof-box*/
 			margin-right: 0;
 			vertical-align: middle;
 			width: 1px;
