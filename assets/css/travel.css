@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-weight: 100;
+    font-family: "Roboto Lt", sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    color: #333;
+    text-align: center;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+}
+
+.container .title{
+    padding: 6rem;
+}
+
+.container h1{
+    font-size: 4.5 rem;
+    margin-right: -1rem;
+}
+
+.container h2{
+    font-size: 7rem;
+    margin-right: -1rem;
+    color: #fff;
+    z-index: 10;
+    opacity: 0.8;
+}
+
+.container h3{
+    font-size: 1.4rem;
+    line-height: 0;
+    padding: 1rem 0;
+}
+
+.between{
+    height: 60rem;
+    position: relative;
+}
+
+.bg{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem 0;
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .parallax{
+    width: 100%;
+    padding: 25rem 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center ;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+
+.container .new-york{
+    background-image: url("/assets/css/images/travel/newyork.jpg");
+}
+
+.container .swiss{
+    background-image: url("/assets/css/images/travel/swiss.jpeg");;
+}
+
+.container .norway{
+    background-image: url("/assets/css/images/travel/norway.jpeg");;
+}
+
+.container .paris{
+    background-image: url("/assets/css/images/travel/paris.jpg");
+}
+
+.container .austria{
+    background-image: url("/assets/css/images/travel/austria.jpeg");
+}
+
+.container .london{
+    background-image: url("/assets/css/images/travel/london.jpeg");
+}
+
+.container .budapest{
+    background-image: url("/assets/css/images/travel/budapest.jpeg");
+}
+
+.container .lakelouise{
+    background-image: url("/assets/css/images/travel/lakelouise.jpeg");
+}
+
+.container .vancouver{
+    background-image: url("/assets/css/images/travel/vancouver.jpeg");
+}
+
+.container .amsterdam{
+    background-image: url("/assets/css/images/travel/amsterdam.jpeg");
+}
+
+.container .prague{
+    background-image: url("/assets/css/images/travel/prague.jpeg");
+}
+
+.container .venice{
+    background-image: url("/assets/css/images/travel/venice.jpeg");
+}
+
+.container .tokyo{
+    background-image: url("/assets/css/images/travel/tokyo.jpeg");
+}
+

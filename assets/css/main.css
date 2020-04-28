@@ -18,21 +18,102 @@ img{
    border-radius: 50%;
    height: 200px;
    width: 200px;
+   filter: inherit;
+}
+
+
+/*graph animation*/
+#particles-js{
+    background-image: url("/assets/css/images/home/scorpius.jpg");
+    margin-top: 0em;
+    height: 500px;
+    filter: inherit;
+}
+
+/*light-dark mode*/
+input[type="checkbox"]
+{
+    -webkit-appearance: none;
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    left: 450px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:before 
+{
+        content: 'Dark Mode';
+        position: absolute;
+        color: #fff;
+        background: #000;
+        padding: 10px 20px;
+        border-radius: 50%;
+}
+
+input[type="checkbox"]:checked:before 
+{
+        content: 'Light Mode';
+        color: #000;
+        background: #fff;
+        padding: 10px 20px;
+        border-radius: 50%;
 }
 
 
 
+input[type="checkbox"]:checked ~ *
+{
+    filter: invert(1);
+}
+
+hr{
+    background-color: red;
+    height: 5px;
+}
+
+/*body{
+    background-image: radial-gradient(lightgrey 0.05%, white 20%);
+    background-position: 0 0;
+    background-size: 20px 20px;
+    width: 100%;
+    filter: inherit();
+}*/
+.main{
+    background-color: white;
+    width: 86%;
+    height: 100%;
+    height: 100%;
+  position: fixed;
+  top: 0;
+  padding-left: 2%;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;  
+}
+
+#footer{
+    float:left; 
+     /*#e4e6c3*/
+    margin-left: 5%; 
+    width: 85% ;
+    height: 100px;
+    padding: 10px;
+    font-size: 24px;
+    
+}
+
 /*side nav*/
 .sidenav {
   height: 100%;
-  width: 14%;
+  width: 15%;
   position: fixed;
   z-index: 1;
   top: 0;
   padding-left: 2%;
-  background-color: transparent;
+  background-color: white;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 20px;  
 }
 
 .sidenav h2:hover {
@@ -65,7 +146,7 @@ img{
 
 .about-me .about-left{
     float:left; 
-    background-color:#DEF4C6; 
+     /*#DEF4C6*/
     margin-left: 5%; 
     width: 20% ;
     height: 800px;
@@ -76,17 +157,19 @@ img{
 
 .about-me .about-right{
     float:left; 
-    background-color:#fffff8;  
+     /*#fffff8*/
+    color: black; 
     width: 65% ;
     height: 800px;
     padding: 30px;
     font-size: 24px;
     margin-bottom: 50px;
+    
 }
 
 .about-page .about-left{
     float:left; 
-    background-color:#f7f7f2; 
+     /*#e0e0d6*/
     margin-left: 5%; 
     width: 65% ;
     height: 800px;
@@ -97,7 +180,7 @@ img{
 
 .about-page .about-right{
     float:left; 
-    background-color:#e4e6c3;  
+     /*#e4e6c3*/ 
     width: 20% ;
     height: 800px;
     padding: 10px;
@@ -109,7 +192,7 @@ img{
 /*qualifications*/
 .qualifications-left{
     float:left; 
-    background-color:#f7f7f2; 
+     /*#f7f7f2*/
     margin-left: 5%; 
     width: 36% ;
     height: 1300px;
@@ -120,7 +203,7 @@ img{
 
 .qualifications-center{
     float:left; 
-    background-color:#f7f7f2;  
+      /*#f7f7f2*/
     width: 24% ;
     height: 1300px;
     padding: 25px;
@@ -130,7 +213,7 @@ img{
 
 .qualifications-right{
     float:left; 
-    background-color:#f7f7f2;  
+      /*#f7f7f2*/
     width: 25% ;
     height: 1300px;
     padding: 25px;
@@ -142,7 +225,7 @@ img{
 /*projects*/
 .internships{
     float:left; 
-    background-color:#f7f7f2; 
+     /*#f7f7f2*/
     margin-left: 5%; 
     width: 28.3% ;
     height: 800px;
@@ -153,7 +236,7 @@ img{
 
 .personal-projects{
     float:left; 
-    background-color:#e4e6c3;  
+    /*#e4e6c3*/  
     width: 28.3% ;
     height: 800px;
     padding: 30px;
@@ -163,7 +246,7 @@ img{
 
 .publications{
     float:left; 
-    background-color:#DEF4C6;  
+    /*#DEF4C6*/  
     width: 28.3% ;
     height: 800px;
     padding: 30px;
@@ -171,21 +254,10 @@ img{
     margin-bottom: 50px;
 }
 
-#header, #footer{
-    float:left; 
-    background-color:#e4e6c3; 
-    margin-left: 5%; 
-    width: 85% ;
-    height: 100px;
-    padding: 10px;
-    font-size: 24px;
-    
-}
-
 /*site-map*/
 .site-map-left{
     float:left; 
-    background-color:#f7f7f2; 
+    /*#f7f7f2*/ 
     margin-left: 5%; 
     width: 23%;
     height: 1000px;
@@ -196,7 +268,7 @@ img{
 
 .site-map-center{
     float:left; 
-    background-color:#f7f7f2;  
+    /*#f7f7f2*/  
     width: 23% ;
     height: 1000px;
     padding: 10px;
@@ -206,7 +278,7 @@ img{
 
 .site-map-right{
     float:left; 
-    background-color:#f7f7f2;  
+    /*#f7f7f2*/  
     width: 39% ;
     height: 1000px;
     padding: 10px;
