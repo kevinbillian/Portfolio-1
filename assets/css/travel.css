@@ -11,7 +11,7 @@ html{
 }
 
 .container{
-    width: 80%;
+    /*width: 80%;*/
     margin: 0 auto;
     color: #333;
     text-align: center;
@@ -34,16 +34,17 @@ html{
     color: #fff;
     z-index: 10;
     opacity: 0.8;
+    position: relative;
 }
 
-.container h3{
+/*.container h3{
     font-size: 1.4rem;
     line-height: 0;
     padding: 1rem 0;
-}
+}*/
 
 .between{
-    height: 60rem;
+    height: 30rem;
     position: relative;
 }
 
@@ -53,13 +54,13 @@ html{
     padding: 2rem 0;
 }
 
-.middle{
+/*.middle{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+*/
 .container .parallax{
     width: 100%;
     padding: 25rem 0;
@@ -74,6 +75,8 @@ html{
 
 .container .new-york{
     background-image: url("/assets/css/images/travel/newyork.jpg");
+    width: 100%;
+    height: auto;
 }
 
 .container .swiss{
