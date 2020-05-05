@@ -1,3 +1,36 @@
+/*background*/
+.bg{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
+  position: relative;
+	background-size: 400% 400%;
+	-webkit-animation: gradientBG 10s ease infinite;
+          animation: gradientBG 10s ease infinite;
+                 
+}
+
+@-webkit-keyframes gradientBG {
+            0% {
+              background-position: 0% 50%;
+            }
+            50% {
+              background-position: 100% 50%;
+            }
+            100% {
+              background-position: 0% 50%;
+            }
+          }
+          @keyframes gradientBG {
+            0% {
+              background-position: 0% 50%;
+            }
+            50% {
+              background-position: 100% 50%;
+            }
+            100% {
+              background-position: 0% 50%;
+            }
+          } 
+
 .container {
     max-width: 960px;
   }
@@ -91,9 +124,6 @@
   /* Featurettes
   ------------------------- */
   
-  .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-  }
   
   /* Thin out the marketing headings */
   .featurette-heading {
@@ -124,3 +154,14 @@
       margin-top: 7rem;
     }
   }
+
+  /*Icons*/
+  #contact{
+    text-align: center;
+  }
+
+  #contact a{
+    color: black;
+    letter-spacing: 2rem;
+  }
+
